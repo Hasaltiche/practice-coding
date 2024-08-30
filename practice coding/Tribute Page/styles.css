@@ -1,0 +1,71 @@
+.year {
+  font-weight: bold;
+}
+
+body {
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+h1,
+#title-descript #image {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#img-div {
+  display: block;
+}
+
+img {
+  display: block;
+  width: clamp(300px, 100%, 700px);
+  margin: auto;
+}
+
+#img-caption {
+  font-size: 11px;
+  width: 50%;
+  margin: 5px auto 20px auto;
+  padding-bottom: 50px;
+}
+
+#tribute-div {
+  width: clamp(300px, 50%, 700px);
+  margin: auto;
+}
+
+#tribute-info {
+  font-size: 15px;
+  text-align: left;
+}
+
+footer {
+  width: 70px;
+}
+
+.last-notes {
+  font-size: 12px;
+  font-style: italic;
+  width: clamp(300px, 50%, 700px);
+  margin: auto;
+  padding: 50px 0;
+}
+
+h1 {
+  padding-top: 50px;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+
+#title-description {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+footer {
+  width: auto;
+  padding-bottom: 5px;
+}

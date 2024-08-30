@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill up the form and thank you for your time</p>
+
+    <form id="survey-form">
+        <fieldset>
+            <label for="name-label" id="name-label">name:<input type="text" name="" id="name" class="name"
+                    placeholder="put your name here" required></label>
+            <label for="email-label" id="email-label">email:<input type="email" name="" id="email" class="email"
+                    placeholder="put your email here" required></label>
+            <label for="number-label" id="number-label">number:<input type="number" name="" id="number" class="number"
+                    min="8" max="13" placeholder="###" required></label>
+            <label for="">What types of games you play?
+                <select name="" id="dropdown">
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>
+                    <option value="3">option 3</option>
+                    <option value="4">option 4</option>
+                </select>
+            </label>
+            <label>What game genres you usually play?</label>
+            <label for=""><input type="radio" value="mmorpg" id="mmorpg" name="genres">mmorpg </label>
+            <label for=""><input type="radio" value="fps" id="fps" name="genres">fps </label>
+
+            <label>Choose the games you played or tried.</label>
+            <label for=""><input type="checkbox" value="Valorant">Valorant </label>
+            <label for=""><input type="checkbox" value="Counter Strike 2">Counter Strike 2</label>
+            <label for=""><input type="checkbox" value="Dota 2">Dota 2</label>
+            <label for=""><input type="checkbox" value="League of legends">League of legends</label>
+        </fieldset>
+        <fieldset>
+            <legend>What are you looking forward too in the future of gaming?</legend>
+            <textarea name="" id="" rows="3" cols="30"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
